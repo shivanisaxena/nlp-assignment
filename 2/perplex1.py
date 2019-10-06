@@ -30,6 +30,6 @@ def perplexity(testset, model):
     return perplexity
 
 if __name__ == '__main__':
-    tokens = read_sentences_from_file("shivi.txt")
+    tokens = read_sentences_from_file("speeches.txt")
     # ans=perplexity(tokens,bigram_mle_model(tokens))
     print(bigram_mle_model(tokens))
